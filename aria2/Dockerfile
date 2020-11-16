@@ -12,6 +12,6 @@ COPY aria2.conf /aria2/conf/aria2.conf
 
 WORKDIR /
 VOLUME ["/aria2/conf", "/aria2/downloads"]
-EXPOSE 6800 80 8080
+EXPOSE 6800 80
 
 CMD ["/aria2/start.sh"]
